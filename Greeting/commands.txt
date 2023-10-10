@@ -1,0 +1,4 @@
+  259  mkdir build && cmake -S . -B build -G Ninja
+  260  cmake --build build
+  261  cd build && ctest
+  262  history
